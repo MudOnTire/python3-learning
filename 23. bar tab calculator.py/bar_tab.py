@@ -23,6 +23,6 @@ class Tab:
         total = self.total + tax + service
 
         for item in self.items:
-            print(f'{item} ${self.menu[item]}')
+            print(f'{item:20} ${self.menu[item]}')
 
-        print(f'{"Total"} ${total:.2f}')
+        print(f'{"Total":20} ${total:.2f}')
